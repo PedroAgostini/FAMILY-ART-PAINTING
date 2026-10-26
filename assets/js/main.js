@@ -135,7 +135,7 @@
   request();
 
   /* Reveal headings and blocks once */
-  var revealTargets = $$('.section-head, .about-copy, .compare-side, .why-copy, .faq-head, .contact-info, .season, .review');
+  var revealTargets = $$('.section-head, .about-copy, .compare-side, .why-copy, .faq-head, .contact-info, .season');
   if ('IntersectionObserver' in window && !reduceMotion) {
     revealTargets.forEach(function (el, i) {
       el.setAttribute('data-reveal', '');
@@ -152,6 +152,27 @@
       if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('is-in');
       rio.observe(el);
     });
+  }
+
+  /* Reviews: an endless ribbon. A copy of the list follows the original so the loop has no seam. */
+  var reviewTrack = $('.review-track');
+  if (reviewTrack) {
+    var reviewList = $('.review-list', reviewTrack);
+    var reviewCopy = reviewList.cloneNode(true);
+    reviewCopy.setAttribute('aria-hidden', 'true');
+    reviewCopy.setAttribute('inert', '');
+    reviewTrack.appendChild(reviewCopy);
+    var setReviewSpeed = function () {
+      // About 40px per second whatever the screen width
+      reviewTrack.style.setProperty('--review-duration', Math.max(40, reviewList.offsetWidth / 40).toFixed(1) + 's');
+    };
+    setReviewSpeed();
+    window.addEventListener('resize', setReviewSpeed);
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        reviewTrack.classList.toggle('is-offscreen', !entries[0].isIntersecting);
+      }).observe(reviewTrack);
+    }
   }
 
   /* Service tabs */
