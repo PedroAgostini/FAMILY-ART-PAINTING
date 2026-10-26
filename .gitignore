@@ -1,0 +1,27 @@
+# Raw client photos (WhatsApp originals, include a third-party yard sign)
+images/_originais/
+
+# Design process files: keep only the token sidecar referenced by DESIGN.md
+.impeccable/*
+!.impeccable/design.json
+
+# Client brief and internal copy docs (private data)
+*Brief*.md
+ONE PAGE*.md
+PRODUCT.md
+
+# Image provenance sidecars
+*.webp.json
+*.png.json
+*.jpg.json
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.log
+node_modules/
+
+# Full-size PNG sources of the generated service images (kept locally)
+images/generated/originals/

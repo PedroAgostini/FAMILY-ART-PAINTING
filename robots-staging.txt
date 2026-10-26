@@ -1,0 +1,4 @@
+# Test environment (family.escolats.com.br): not for search engines.
+# .htaccess serves this file as /robots.txt on escolats.com.br hosts only.
+User-agent: *
+Disallow: /

@@ -1,0 +1,7 @@
+# Family Art Painting
+User-agent: *
+Allow: /
+Disallow: /404
+Disallow: /tools/
+
+Sitemap: https://family.escolats.com.br/sitemap.xml

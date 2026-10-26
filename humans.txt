@@ -1,0 +1,22 @@
+/* TEAM */
+Design and development: Eu Sou TS
+Site: https://eusouts.com.br/
+Location: Brazil
+
+/* CLIENT */
+Family Art Painting Inc
+Owners: Leonardo Soares and Josilaine Moura
+Location: 46 Broad St, Marlborough, MA 01752, USA
+Phone: (774) 828-0102
+
+/* THANKS */
+Leonardo and Josilaine, for the real photos of their work.
+Unsplash photographers, for the placeholder interior photos.
+
+/* SITE */
+Last update: 2026/10/26
+Language: English (US)
+Standards: HTML5, CSS3, ES2017, WCAG 2.1 AA
+Components: Three.js
+Fonts: Young Serif, Archivo
+Software: Visual Studio Code, Claude Code

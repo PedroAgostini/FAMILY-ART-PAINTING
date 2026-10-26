@@ -1,0 +1,10 @@
+Stock photos (Unsplash License, free for commercial use). Replace with real project photos when available.
+interior-painting.webp  https://unsplash.com/photos/rMVjOX8nm2U
+cabinet-painting.webp  https://unsplash.com/photos/1by_GbwEMwc
+door-painting.webp  https://unsplash.com/photos/yGw9lt7MJOE
+wallpaper-removal.webp  https://unsplash.com/photos/n5fgtBuF4w4
+power-washing.webp  https://unsplash.com/photos/e2k842P9a2I
+gutter-painting.webp  https://unsplash.com/photos/gvt-wjGk4S4
+drywall-repair.webp  https://unsplash.com/photos/Re1O5byZ8bY
+post-construction-cleaning.webp  https://unsplash.com/photos/2ZMe-E2NBZ0
+commercial-painting.webp  https://unsplash.com/photos/q8fe785r5nU

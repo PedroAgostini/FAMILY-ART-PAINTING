@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://family.escolats.com.br/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://family.escolats.com.br/images/hero-house.webp</image:loc>
+      <image:title>House painted by Family Art Painting in Massachusetts</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://family.escolats.com.br/images/after-gable-porch.webp</image:loc>
+      <image:title>Exterior restoration after painting</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://family.escolats.com.br/images/before-gable-peeling.webp</image:loc>
+      <image:title>Peeling exterior paint before restoration</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://family.escolats.com.br/images/after-street-wide.webp</image:loc>
+      <image:title>Repainted colonial home in Massachusetts</image:title>
+    </image:image>
+  </url>
+</urlset>
