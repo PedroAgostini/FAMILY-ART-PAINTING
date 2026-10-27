@@ -136,7 +136,7 @@ Abra `assets/js/main.js` e preencha `FORM_ENDPOINT` com um endpoint do [Formspre
 - [ ] Substituir os 3 depoimentos marcados como `[Placeholder]` pelos reviews reais do Google
 - [ ] Confirmar com o cliente o selo "Licensed and insured"
 - [ ] Configurar o `FORM_ENDPOINT`
-- [ ] Validar as cidades atendidas e o link do Facebook
+- [ ] Validar as cidades atendidas
 - [ ] Trocar as imagens geradas por IA dos cards de serviço (`images/generated/`) por fotos reais quando o cliente enviar
 - [ ] No lançamento, trocar `family.escolats.com.br` por `familyartpainting.com` em `index.html`, `sitemap.xml`, `robots.txt` e `llms.txt`
 
